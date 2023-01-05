@@ -32,6 +32,13 @@ into the {body} of the default.hbs template --}}
             {{#if @site.description}}
                 <p class="site-description">{{@site.description}}</p>
             {{/if}}
+            <div class="site-header-social">
+            	<a class="site-header-link" href="//matrix.to/#/@me:codesalat.dev" title="Matrix" target="_blank" rel="noopener">{{> "icons/matrix" }}</a>
+            	<a class="site-header-link" rel="me" href="//infosec.exchange/@codesalat" title="Mastodon" target="_blank" rel="noopener">{{> "icons/mastodon" }}</a>
+            	<a class="site-header-link" href="//github.com/codesalatdev" title="GitHub" target="_blank" rel="noopener">{{> "icons/github" }}</a>
+            	<a class="site-header-link" href="//linkedin.com/in/noah-gro%C3%9F-954800154/" title="LinkedIn" target="_blank" rel="noopener">{{> "icons/linkedin" }}</a>
+            	<a class="site-header-link" href="//app.hackthebox.com/profile/76772" title="HackTheBox" target="_blank" rel="noopener">{{> "icons/hackthebox" }}</a>
+            </div>
         </div>
     {{/match}}
 
